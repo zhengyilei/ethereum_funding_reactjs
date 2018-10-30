@@ -1,0 +1,36 @@
+#root {
+    height: 100%;
+    display: flex;
+    background: -webkit-radial-gradient(#0084CC, #1f3270, #020633); /* Safari 5.1 - 6.0 */
+    background: -o-radial-gradient(#0084CC, #1f3270, #020633); /* Opera 11.6 - 12.0 */
+    background: -moz-radial-gradient(#0084CC, #1f3270, #020633); /* Firefox 3.6 - 15 */
+    background: radial-gradient(#0084CC, #1f3270, #020633); /* 标准的语法 */
+}
+
+.App {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+    /*background-color: #33333366;*/
+.App-header {
+    margin-top: 66px;
+}
+.App-title {
+    font-size: 66px;
+    font-weight: normal;
+    color: white;
+}
+.swear-container{
+    width: 800px;
+    margin: 80px auto;
+    backgroundColor: #66666688
+}
+
+.swear-item {
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: white;
+}

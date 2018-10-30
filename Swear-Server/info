@@ -1,0 +1,10 @@
+account: 0x7855F93C158B36C93D0e34eb6Be6b2dcFd3587e4
+address: 0x4e167aeC3eA6cd658630775658c5a1fC09DF4A8e
+--------------------------------------
+[ { "constant": false, "inputs": [ { "name": "w", "type": "string" } ], "name": "publish", "outputs": [], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": true, "inputs": [], "name": "msgCount", "outputs": [ { "name": "", "type": "uint256" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [ { "name": "r", "type": "uint256" } ], "name": "randomGet", "outputs": [ { "name": "", "type": "string" }, { "name": "", "type": "address" }, { "name": "", "type": "uint256" } ], "payable": false, "stateMutability": "view", "type": "function" } ]
+
+
+account: 0x7855F93C158B36C93D0e34eb6Be6b2dcFd3587e4
+address: 0x9106484205ccb1BEAF8f7df2A0999DB93A88b40A
+--------------------------------------
+[ { "constant": true, "inputs": [], "name": "msgCount", "outputs": [ { "name": "", "type": "uint256" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [ { "name": "r", "type": "uint256" } ], "name": "randomGet", "outputs": [ { "name": "", "type": "string" }, { "name": "", "type": "string" }, { "name": "", "type": "address" }, { "name": "", "type": "uint256" }, { "name": "", "type": "uint256" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "outputs": [], "constant": false, "inputs": [ { "name": "w", "type": "string" }, { "name": "from", "type": "string" } ], "name": "publish", "payable": true, "stateMutability": "payable", "type": "function" } ]

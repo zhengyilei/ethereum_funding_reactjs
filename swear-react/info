@@ -1,0 +1,4 @@
+account: 0x7855F93C158B36C93D0e34eb6Be6b2dcFd3587e4
+address: 0x389dD55b25481544786F0028c3B8296c0458Fef5
+--------------------------------------
+[ { "constant": false, "inputs": [ { "name": "w", "type": "string" } ], "name": "publish", "outputs": [], "payable": true, "stateMutability": "payable", "type": "function" }, { "constant": true, "inputs": [], "name": "msgCount", "outputs": [ { "name": "", "type": "uint256" } ], "payable": false, "stateMutability": "view", "type": "function" }, { "constant": true, "inputs": [ { "name": "r", "type": "uint256" } ], "name": "randomGet", "outputs": [ { "name": "", "type": "string" }, { "name": "", "type": "address" }, { "name": "", "type": "uint256" } ], "payable": false, "stateMutability": "view", "type": "function" } ]
